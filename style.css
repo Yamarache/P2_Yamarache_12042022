@@ -1,8 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap%22");
 html{
     margin-top: 0px;
     display: flex;
     justify-content: center;
-
 }
 body{
    font-family: 'Raleway', sans-serif;
@@ -12,7 +12,14 @@ body{
         width: 1440px;
 }
 /* header */
-
+#logo_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.booki{
+    width: 130px;
+}
 #header_li p{
     margin-top: 0px;
 }
@@ -22,16 +29,21 @@ body{
     border-radius: 10px;
     display:flex;
     height: 50px;
+
 }
 #searchbar{
     border: 1px solid #F2F2F2;
-
+    width: 200px;
+    padding-left: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 17px;  
 }
 #searchbar::placeholder{
     color: black;
-    font-weight: 600;
     font-family: 'Raleway', sans-serif;
-    padding-left: 10px;  
+    font-weight: 700;
+    font-size: 17px;  
 }
 button{
     height: 50px;
@@ -79,25 +91,10 @@ header{
     font-weight: 800;
 }
 
-/* Footer */
-footer{
-    background-color: #F2F2F2;
-
-}
-#footer_li{
-    display: flex;
-    justify-content: space-around;
-}
-footer li{
-    list-style: none;
-}
-footer ul p{
-    font-weight: 800;
-}
 /* Hebergement */
 .image_hebergement{
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     width: 250px;
     height: 150px;
     object-fit : cover;
@@ -105,9 +102,10 @@ footer ul p{
 .Hebergement_card { 
 
     background-color: white;
-    border-radius: 10px;
-    border: 3px solid white;
+    border-radius: 20px;
+    border: 5px solid white;
     height: 250px;
+    box-shadow: 5px 5px 13px #d1d1d1;
     }
 .info_hebergement{
     width: 100%;
@@ -120,7 +118,9 @@ footer ul p{
     border-radius: 20px;
     justify-content: space-between;
     padding: 30px;
-    margin-right: 20px;
+    margin-right: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .text_hebergement{
@@ -138,12 +138,14 @@ footer ul p{
     display: flex;
     flex-direction: row;
     margin-bottom: 20px;
+    margin-top: 15px;
 }
 #hebergement_1{
     margin-right: 20px;
 }
 #hebergement_2{
-    
+    margin-right: 10px;
+    margin-left: 10px;
 }
 #hebergement_3{
     margin-left: 20px;
@@ -152,7 +154,8 @@ footer ul p{
     margin-right: 20px;
 }
 #hebergement_5{
-    
+    margin-right: 10px;
+    margin-left: 10px;
 }
 #hebergement_6{
     margin-left: 20px;
@@ -163,31 +166,32 @@ footer ul p{
 .grey_star{
     color: #F2F2F2;
 }
+
+.bold{
+    font-weight: 700;
+}
+.bold:not(strong){
+    font-size: 18px;    
+}
+
 /* Populaire */
 
 #Populaires{
     background-color: #F2F2F2;
     border-radius: 20px;
-    max-width: 20%;
-    border-radius: 20px;
     float: right;
     padding: 25px;
     justify-content: space-between;
-    width: 800px;
+    width: 400px;
 }
 #Populaires h2{
-    margin-left: 20px;
-    margin-bottom: 35px;
+    font-size: 24px;
+    margin-bottom: 0px;
+    margin-top: 28px;
 }
 
-#Populaires, #Hebergement{
-
-    align-items: baseline;
-    flex-wrap: wrap;
-}
 #hebergement_Populaire{
     display: flex;
-    justify-content: center;
 }
 
 #titre_populaire{
@@ -200,15 +204,17 @@ footer ul p{
     display: flex;
     background-color: white;
     margin: 20px;
-    border-radius: 10px;
-    border: 3px solid white;
+    border-radius: 20px;
+    border: 5px solid white;
+    box-shadow: 5px 5px 13px #d1d1d1;
 }
 
 
 .image_populaire{
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
     width: 130px;
+    height: 162px;
     object-fit : cover;
 }  
 .populaire_text{
@@ -224,6 +230,7 @@ footer ul p{
     display: flex;
     padding-left: 0px;
     font-weight: 600;
+    margin-top: 30px;
 }
 
 .name_filter{
@@ -250,6 +257,7 @@ footer ul p{
 .info{
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
 }
 .icon_info{
     display: flex;
@@ -274,62 +282,120 @@ footer ul p{
     color: #0065FC;
 }
 
-#logo_menu{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
 
 .titre{
     width: 100%;
 }
 
 /* Activités */
-#Activity{
-}
 .Activititre{
     width: 100%;
+    margin-top: 50px;
+    margin-bottom: 0;
 }
-
 #Activity_card{
-    display: flex ;
+    display: flex;
 }
-#Activite_2, #Activite_3, #Activite_5 ,#Activite_6{
-    width: inherit;
 
-}
 .column{
     width: 320px;
-
+}
+#Activite_1{
+    width: 320px;
+    margin-left: 0;
+    margin-right: 32px;
+}
+#Activite_2{
+    height: 295px;    
+    width: 320px;
+    margin-right: 32px;
 }
 #Activite_3{
-    min-height: 350px;
+    width: 320px;
+    height: 231px;
+    margin-right: 32px;
 }
-
 #Activite_4{
+    width: 320px;
     margin-left: 60px;
+    margin-right: 32px;
 }
 #Activite_5{
-    height: 400px;
+    width: 320px;
+    height: 255px;
 }
 #Activite_6{
-    height: 500px;
-}
+    width: 320px;
+    height: 271px;
 
+}
 .card{
-    border: 1px solid #F2F2F2;
     border-radius: 15px;
     margin: 20px;
+    box-shadow: 5px 5px 13px #d1d1d1;
 }
 .card p{
     display: flex;
     justify-content: center;
-
 }
-.img_activity{
-    width: inherit;
-    min-height: 90%;
+.img_activity1{
+    width: 320px;
+    height: 480px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     object-fit : cover;
+}
+.img_activity2{
+    width: 320px;
+    height: 235px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit : cover;
+}
+.img_activity3{
+    width: 320px;
+    height: 165px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit : cover;
+}
+.img_activity4{
+    width: 320px;
+    height: 480px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit : cover;
+}
+.img_activity5{
+    width: 320px;
+    height: 195px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit : cover;
+}
+.img_activity6{
+    width: 320px;
+    height: 210px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit : cover;
+}
+
+/* Footer */
+footer{
+    background-color: #F2F2F2;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    line-height: 30px;
+}
+#footer_li{
+    display: flex;
+    justify-content: space-around;
+}
+footer li{
+    list-style: none;
+}
+footer ul p{
+    font-weight: 800;
 }

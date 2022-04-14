@@ -7,10 +7,6 @@ html{
 body{
    font-family: 'Raleway', sans-serif;
 }
-#div_body{
-        margin: auto;
-        width: 1440px;
-}
 /* header */
 #logo_menu{
     display: flex;
@@ -54,7 +50,7 @@ button{
     border-top-right-radius: 16px;
     border-bottom-right-radius: 16px; 
     font-family: inherit;
-    font-weight: 600;   
+    font-weight: 600;
 }
 .i_search_bar{
     width: 50px;
@@ -68,16 +64,18 @@ button{
 }
 #header_li a{
     display: flex;
-    float: top;
     float: right;
-    margin-right: 60px;
+    margin-left: 60px;
+    padding-top: 60px;
     color: black;
     text-decoration: none;
+    font-weight: 500;
 
 }
 #header_li a:hover{
     color: #0065FC;
     border-top: 1px solid #0065FC;
+    padding-top: 59px;
 }
 
 header{

@@ -17,6 +17,9 @@
     #header_li a {
         padding-top: 40px;
     }
+    #header_li a:hover {
+        padding-top: 39px;
+    }
     #logo_menu{
 
         width: auto;
@@ -134,7 +137,6 @@
     footer{
         display: flex;
         justify-content: center;
-        width: 105%;
         margin-left: -10px;
         margin-bottom: -10px;
 

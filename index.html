@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="styleTablette.css" media="screen and (max-width:768px" )>
-    <link rel="stylesheet" href="styleMobile.css" media="screen and (max-width:320px" )>
+    <link rel="stylesheet" href="styleTablette.css" media="screen and (max-width:768px)">
+    <link rel="stylesheet" href="styleMobile.css" media="screen and (max-width:320px)">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,900;1,700&display=swap"
@@ -51,33 +51,35 @@
                     <button><i class="fa-solid fa-magnifying-glass"></i></button>
                 </div>
             </div>
-            <ul class="list_filtres">
+            <div id="div_filtres">
                 <p class="titre_liste">Filtres</p>
-                <li>
-                    <div class="filtre">
-                        <i class="fa-solid fa-money-bill-wave"></i>
-                    </div>
-                    <p class="name_filter">Économique</p>
-                </li>
-                <li>
-                    <div class="filtre">
-                        <i class="fas fa-child"></i>
-                    </div>
-                    <p class="name_filter">Familiale</p>
-                </li>
-                <li>
-                    <div class="filtre">
-                        <i class="fa-solid fa-heart"></i>
-                    </div>
-                    <p class="name_filter">Romantique</p>
-                </li>
-                <li>
-                    <div class="filtre">
-                        <i class="fa-solid fa-dog"></i>
-                    </div>
-                    <p class="name_filter">Animaux autorisés</p>
-                </li>
-            </ul>
+                <ul class="list_filtres">
+                    <li>
+                        <div class="filtre">
+                            <i class="fa-solid fa-money-bill-wave"></i>
+                        </div>
+                        <p class="name_filter">Économique</p>
+                    </li>
+                    <li>
+                        <div class="filtre">
+                            <i class="fas fa-child"></i>
+                        </div>
+                        <p class="name_filter">Familiale</p>
+                    </li>
+                    <li>
+                        <div class="filtre">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <p class="name_filter">Romantique</p>
+                    </li>
+                    <li>
+                        <div class="filtre">
+                            <i class="fa-solid fa-dog"></i>
+                        </div>
+                        <p class="name_filter">Animaux autorisés</p>
+                    </li>
+                </ul>
+            </div>
             <div class="info">
                 <div class="icon_info">
                     <i class="fa-solid fa-info"></i>
@@ -198,8 +200,10 @@
                     src="./images/hebergement/1_xlarge/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
                     alt="Hôtel Le soleil du matin">
                 <div class="populaire_text">
-                    <p class="bold">Hôtel Le soleil du matin</p>
-                    <p>Nuit à partir de 128<strong class="bold">€</strong></p>
+                    <div>
+                        <p class="bold">Hôtel Le soleil du matin</p>
+                        <p>Nuit à partir de 128<strong class="bold">€</strong></p>
+                    </div>
                     <div class="etoile">
                         <i class="fa-solid fa-star blue_star"></i>
                         <i class="fa-solid fa-star blue_star"></i>
@@ -213,8 +217,11 @@
                 <img class="image_populaire" src="./images/hebergement/1_xlarge/aw-creative-VGs8z60yT2c-unsplash.jpg"
                     alt="Au coeur de l'eau Chambre d'hôtes">
                 <div class="populaire_text">
-                    <p class="bold">Au coeur de l'eau Chambres d'hôtes</p>
-                    <p>Nuit à partir de 71<strong class="bold">€</strong></p>
+                    <div>
+                        <p class="bold">Au coeur de l'eau Chambres d'hôtes</p>
+                        <p>Nuit à partir de 71<strong class="bold">€</strong></p>
+                    </div>
+
                     <div class="etoile">
                         <i class="fa-solid fa-star blue_star"></i>
                         <i class="fa-solid fa-star blue_star"></i>
@@ -229,8 +236,10 @@
                     src="./images/hebergement/1_xlarge/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
                     alt="Hôtel Tout bleu et Blanc">
                 <div class="populaire_text">
-                    <p class="bold">Hôtel Tout bleu et Blanc</p>
-                    <p>Nuit à partir de 68<strong class="bold">€</strong></p>
+                    <div>
+                        <p class="bold">Hôtel Tout bleu et Blanc</p>
+                        <p>Nuit à partir de 68<strong class="bold">€</strong></p>
+                    </div>
                     <div class="etoile">
                         <i class="fa-solid fa-star blue_star"></i>
                         <i class="fa-solid fa-star blue_star"></i>
@@ -286,22 +295,28 @@
     </div>
     <footer>
         <div id="footer_li">
-            <ul>
+            <div>
                 <p>A propos</p>
-                <li>Fontionnement général du site</li>
-                <li>Condition général de ventes</li>
-                <li>Données et confidentialité</li>
-            </ul>
-            <ul>
+                <ul>
+                    <li>Fontionnement général du site</li>
+                    <li>Condition général de ventes</li>
+                    <li>Données et confidentialité</li>
+                </ul>
+            </div>
+            <div>
                 <p>Nos hébergements</p>
-                <li>Charte qualité</li>
-                <li>Soumettre votre hôtel</li>
-            </ul>
-            <ul>
+                <ul>
+                    <li>Charte qualité</li>
+                    <li>Soumettre votre hôtel</li>
+                </ul>
+            </div>
+            <div>
                 <p>Assistance</p>
-                <li>Centre d'aide</li>
-                <li>Nous contacter</li>
-            </ul>
+                <ul>
+                    <li>Centre d'aide</li>
+                    <li>Nous contacter</li>
+                </ul>
+            </div>
         </div>
     </footer>
 </body>

@@ -1,31 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap%22");
 html{
-    margin-top: 0px;
-    display: flex;
-    justify-content: center;
+max-width: 992px;
+margin: 0;
 }
 body{
    font-family: 'Raleway', sans-serif;
+   max-width: 992px;
 }
 /* header */
+
 #logo_menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .booki{
-    width: 130px;
+    width: 140px;
 }
 #header_li p{
     margin-top: 0px;
 }
-
+#search_bar2{
+    display: none;
+}
 #search_bar{
     outline: none;
     border-radius: 10px;
     display:flex;
     height: 50px;
-
 }
 #searchbar{
     border: 1px solid #F2F2F2;
@@ -70,19 +72,16 @@ button{
     color: black;
     text-decoration: none;
     font-weight: 500;
-
 }
 #header_li a:hover{
     color: #0065FC;
     border-top: 1px solid #0065FC;
     padding-top: 59px;
 }
-
 header{
     position: relative;
 }
 .text_header{
-    line-height: 10px;
     margin-top: 40px;
 }
 .text_header h2{
@@ -90,23 +89,24 @@ header{
 }
 
 /* Hebergement */
+
 .image_hebergement{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    width: 250px;
-    height: 150px;
+    width: 175px;
+    height: 105px;
     object-fit : cover;
 }
-.Hebergement_card { 
-
+.Hebergement_card {
     background-color: white;
     border-radius: 20px;
     border: 5px solid white;
-    height: 250px;
+    height: 180px;
     box-shadow: 5px 5px 13px #d1d1d1;
-    }
+}
 .info_hebergement{
     width: 100%;
+    font-size: 17px;
 }
 #Hebergement{
     display: flex;
@@ -115,48 +115,45 @@ header{
     background-color: #F2F2F2;
     border-radius: 20px;
     justify-content: space-between;
-    padding: 30px;
-    margin-right: 35px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 15px;
+    margin-right: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
-
 .text_hebergement{
-    padding-left: 10px;
+    padding-left: 7px;
     line-height: 5px;
 }
-
 #Hebergement_part1{
     display: flex;
     flex-direction: row;
-    margin-bottom: 20px;
+    margin-bottom: 14px;
 }
-
 #Hebergement_part2{
     display: flex;
     flex-direction: row;
-    margin-bottom: 20px;
+    margin-bottom: 14px;
     margin-top: 15px;
 }
 #hebergement_1{
-    margin-right: 20px;
+    margin-right: 14px;
 }
 #hebergement_2{
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 7px;
+    margin-left: 7px;
 }
 #hebergement_3{
-    margin-left: 20px;
+    margin-left: 14px;
 }
 #hebergement_4{
-    margin-right: 20px;
+    margin-right: 14px;
 }
 #hebergement_5{
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 7px;
+    margin-left: 7px;
 }
 #hebergement_6{
-    margin-left: 20px;
+    margin-left: 14px;
 }
 .blue_star{
     color: #0065FC;
@@ -164,63 +161,55 @@ header{
 .grey_star{
     color: #F2F2F2;
 }
-
 .bold{
     font-weight: 700;
 }
 .bold:not(strong){
-    font-size: 18px;    
+    font-size: 12px;    
 }
-
 /* Populaire */
 
 #Populaires{
     background-color: #F2F2F2;
     border-radius: 20px;
-    float: right;
-    padding: 25px;
-    justify-content: space-between;
-    width: 400px;
+    padding: 17px;
 }
 #Populaires h2{
-    font-size: 24px;
+    font-size: 18px;
     margin-bottom: 0px;
-    margin-top: 28px;
+    margin-top: 20px;
 }
-
 #hebergement_Populaire{
     display: flex;
 }
-
 #titre_populaire{
     display: flex;
     justify-content: space-around;
     font-size: 1.5em;
-
 }
 .populaire_card{
     display: flex;
     background-color: white;
-    margin: 20px;
+    margin: 15px;
     border-radius: 20px;
     border: 5px solid white;
     box-shadow: 5px 5px 13px #d1d1d1;
+    width: 250px;
 }
-
-
 .image_populaire{
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    width: 130px;
-    height: 162px;
+    width: 90px;
+    height: 115px;
     object-fit : cover;
 }  
 .populaire_text{
-    margin: 15px;
+    margin: 10px;
+    font-size: 12px;
 }
 #titre_populaire i{
-    margin-left: 25px;
-    margin-top: 25px;
+    margin-left: 17px;
+    margin-top: 17px;
 }
 /* Filtre  */
 
@@ -268,69 +257,60 @@ header{
     color: #0065FC;
     margin-right: 20px;
 }
-.icon_info i {
-
+.icon_info i{
     padding: 10px;
 }
 .filtre i{
     margin: 17px;
 }
-
 .list_flitres>img{
     color: #0065FC;
 }
-
-
-
 .titre{
     width: 100%;
 }
-
 /* Activités */
+
 .Activititre{
     width: 100%;
-    margin-top: 50px;
+    margin-top: 35px;
     margin-bottom: 0;
 }
 #Activity_card{
     display: flex;
+    margin-top: 20px;
 }
-
 .column{
-    width: 320px;
+    width: 223px;
+    margin-right: 30px;
 }
 #Activite_1{
-    width: 320px;
+    width: 223px;
     margin-left: 0;
-    margin-right: 32px;
 }
 #Activite_2{
-    height: 295px;    
-    width: 320px;
-    margin-right: 32px;
+    height: 205px;    
+    width: 223px;
+    margin-bottom: 30px;
 }
 #Activite_3{
-    width: 320px;
-    height: 231px;
-    margin-right: 32px;
+    width: 223px;
+    height: 160px;
 }
 #Activite_4{
-    width: 320px;
-    margin-left: 60px;
-    margin-right: 32px;
+    width: 223px;
 }
 #Activite_5{
-    width: 320px;
-    height: 255px;
+    width: 223px;
+    height: 178px;
+    margin-bottom: 30px;
 }
 #Activite_6{
-    width: 320px;
-    height: 271px;
-
+    width: 223px;
+    height: 189px;
 }
 .card{
     border-radius: 15px;
-    margin: 20px;
     box-shadow: 5px 5px 13px #d1d1d1;
 }
 .card p{
@@ -338,48 +318,47 @@ header{
     justify-content: center;
 }
 .img_activity1{
-    width: 320px;
-    height: 480px;
+    width: 223px;
+    height: 335px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     object-fit : cover;
 }
 .img_activity2{
-    width: 320px;
-    height: 235px;
+    width: 223px;
+    height: 164px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     object-fit : cover;
 }
 .img_activity3{
-    width: 320px;
-    height: 165px;
+    width: 223px;
+    height: 115px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     object-fit : cover;
 }
 .img_activity4{
-    width: 320px;
-    height: 480px;
+    width: 223px;
+    height: 335px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     object-fit : cover;
 }
 .img_activity5{
-    width: 320px;
-    height: 195px;
+    width: 223px;
+    height: 135px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     object-fit : cover;
 }
 .img_activity6{
-    width: 320px;
-    height: 210px;
+    width: 223px;
+    height: 146px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     object-fit : cover;
 }
-
 /* Footer */
 footer{
     background-color: #F2F2F2;

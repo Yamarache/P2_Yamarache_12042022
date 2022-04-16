@@ -57,11 +57,10 @@
     .image_populaire{
         width: 300px;
     }
-    #Populaire_card{
-        padding: 0;
-        margin-left: 0px;
-        margin-right: 0px;
-        width: auto;
+    .populaire_card{
+        margin-left: 10px;
+        margin-right: 10px;
+        width: -webkit-fill-available;
     }
     /* HEBERGEMENT */
 
@@ -82,7 +81,6 @@
     #Hebergement_part1, #Hebergement_part2{
         display: flex;
         flex-direction: column;
- 
     }
     #Hebergement_part2{
         margin-top: 0;
@@ -98,7 +96,9 @@
     .image_hebergement{
         width: -webkit-fill-available;
     }
-
+    #Hebergement .etoile{
+        margin-top: -8px;
+    }
     /* ACTIVITÉ */
     #Activity{
         margin-left: 30px;
@@ -131,9 +131,11 @@
     }
     .column {
         width: -webkit-fill-available;
+        margin: 0;
     }
     
     /* FOOTER */
+
     footer{
         display: flex;
         justify-content: center;

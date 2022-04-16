@@ -7,6 +7,8 @@ body{
    font-family: 'Raleway', sans-serif;
    max-width: 992px;
    margin: 0;
+   overflow-x: hidden;
+
 }
 /* header */
 
@@ -173,6 +175,11 @@ header{
     height: 180px;
     box-shadow: 5px 5px 13px #d1d1d1;
 }
+.Hebergement_card:hover{
+    transform: scale(1.1);
+    background-color: #DEEBFF;
+    border:5px solid #DEEBFF;
+    }
 .info_hebergement{
     width: 100%;
     font-size: 17px;
@@ -265,6 +272,11 @@ header{
     box-shadow: 5px 5px 13px #d1d1d1;
     width: 250px;
 }
+.populaire_card:hover {
+    background-color: #DEEBFF;
+    border: 5px solid #DEEBFF;
+    transform: scale(1.1);
+  }
 .image_populaire{
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -315,6 +327,7 @@ header{
 }
 #Activite_4{
     width: 223px;
+    height: 397px;
 }
 #Activite_5{
     width: 223px;
@@ -329,13 +342,18 @@ header{
     border-radius: 15px;
     box-shadow: 5px 5px 13px #d1d1d1;
 }
+.card:hover{
+    transform: scale(1.1);
+}
 .card p{
     display: flex;
     justify-content: center;
+    text-align: center;
 }
+
 .img_activity1{
     width: 223px;
-    height: 335px;
+    height: 351px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     object-fit : cover;
@@ -356,7 +374,7 @@ header{
 }
 .img_activity4{
     width: 223px;
-    height: 335px;
+    height: 351px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     object-fit : cover;
@@ -392,4 +410,8 @@ footer ul{
 }
 footer p{
     font-weight: 800;
+}
+a{
+    color: black;
+    text-decoration: none;
 }

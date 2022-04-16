@@ -6,6 +6,7 @@ margin: 0;
 body{
    font-family: 'Raleway', sans-serif;
    max-width: 992px;
+   margin: 0;
 }
 /* header */
 
@@ -87,7 +88,73 @@ header{
 .text_header h2{
     font-weight: 800;
 }
+/* FILTRES */
 
+.titre_liste{
+    align-self: center;
+    font-weight: 600;
+}
+#div_filtres{
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+.list_filtres{
+    display: flex;
+    padding-left: 0px;
+    font-weight: 600;
+
+}
+
+.name_filter{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.list_filtres>li{
+    border: 2px solid #F2F2F2;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    height: 48px;
+    margin-left: 30px;
+}
+.filtre{
+    margin-left: -3px;
+    border-radius: 30px;
+    background-color: #DEEBFF;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    color: #0065FC;
+}
+.info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.icon_info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #F2F2F2;
+    border-radius: 80px;
+    width: 30px;
+    height: 30px;
+    color: #0065FC;
+    margin-right: 20px;
+}
+.icon_info i{
+    padding: 10px;
+}
+.filtre i{
+    margin: 17px;
+}
+.list_flitres>img{
+    color: #0065FC;
+}
+.titre{
+    width: 100%;
+}
 /* Hebergement */
 
 .image_hebergement{
@@ -205,70 +272,17 @@ header{
 }  
 .populaire_text{
     margin: 10px;
+    margin-top: 0;
     font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 #titre_populaire i{
     margin-left: 17px;
     margin-top: 17px;
 }
-/* Filtre  */
 
-.list_filtres{
-    display: flex;
-    padding-left: 0px;
-    font-weight: 600;
-    margin-top: 30px;
-}
-
-.name_filter{
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.list_filtres>li{
-    border: 2px solid #F2F2F2;
-    border-radius: 30px;
-    display: flex;
-    align-items: center;
-    height: 48px;
-    margin-left: 30px;
-}
-.filtre{
-    margin-left: -3px;
-    border-radius: 30px;
-    background-color: #DEEBFF;
-    width: 50px;
-    display: flex;
-    justify-content: center;
-    color: #0065FC;
-}
-.info{
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-}
-.icon_info{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #F2F2F2;
-    border-radius: 80px;
-    width: 30px;
-    height: 30px;
-    color: #0065FC;
-    margin-right: 20px;
-}
-.icon_info i{
-    padding: 10px;
-}
-.filtre i{
-    margin: 17px;
-}
-.list_flitres>img{
-    color: #0065FC;
-}
-.titre{
-    width: 100%;
-}
 /* Activités */
 
 .Activititre{
@@ -370,9 +384,10 @@ footer{
     display: flex;
     justify-content: space-around;
 }
-footer li{
+footer ul{
     list-style: none;
+    padding-left: 0;
 }
-footer ul p{
+footer p{
     font-weight: 800;
 }

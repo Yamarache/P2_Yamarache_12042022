@@ -1,12 +1,10 @@
-@media screen and (max-width: 320px)
+@media screen and (max-device-width: 320px)
 {
     body{
         margin: 0;
     }
-    header {
-
-    }
     /* HEADER */
+
     #logo_menu {
         width: auto;
         display: flex;
@@ -110,7 +108,6 @@
         
     /* POPULAIRE */
     .image_populaire {
-
         width: 100px;
         height: 121px;
     }
@@ -144,7 +141,6 @@
         font-size: 18px;
     }
     #hebergement_Populaire{
-
         margin-left: 0px;
         margin-right: 0px;
     }

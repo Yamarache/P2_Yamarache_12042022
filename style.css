@@ -333,6 +333,7 @@ header{
 }
 #Activity_card{
     display: flex;
+	flex-direction: row;
     margin-top: 20px;
 	width: 100%;
 }

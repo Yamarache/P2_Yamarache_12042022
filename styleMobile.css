@@ -21,8 +21,6 @@
         display: flex;
         justify-content: center;
         border-bottom: 3px solid #F2F2F2;
-        padding-left: 35px;
-        padding-right: 35px;
     }
         #header_li a:hover {
         border-top: none;

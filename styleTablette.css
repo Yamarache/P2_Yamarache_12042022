@@ -4,7 +4,6 @@
         display: flex;
         flex-direction: column;
         overflow-x: hidden;
-        margin: 0;
     }
 
     /* HEADER */
@@ -70,14 +69,11 @@
         padding: 0;
         margin-left: 0px;
         margin-right: 0px;
-        width: auto;
+        width: 100%;
         max-width: 100%;
     }
     .populaire_text{
         width: auto;
-    }
-    .image_populaire{
-        width: 300px;
     }
     .populaire_card{
         margin-left: 10px;
@@ -90,7 +86,7 @@
         background-color: white;
         padding-left: 0;
         padding-right: 0;
-        margin: 0;
+        margin-right: 30px;
     }
     #Hebergement_middle{
         display: flex;
@@ -159,6 +155,9 @@
     .column {
         width: -webkit-fill-available;
         margin: 0;
+    }
+    .card p{
+        font-size: inherit;
     }
     
     /* FOOTER */

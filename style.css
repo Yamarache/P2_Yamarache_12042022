@@ -7,8 +7,12 @@ body{
    width: 100%;
    margin: 0;
 }
+
 /* header */
 
+header{
+    margin-left: 20px;
+}
 #logo_menu{
     display: flex;
     justify-content: space-between;
@@ -70,7 +74,6 @@ button{
     display: flex;
     float: right;
 	justify-content: center;
-    margin-left: 60px;
     padding-top: 60px;
     color: black;
     text-decoration: none;
@@ -109,7 +112,6 @@ header{
     display: flex;
     padding-left: 0px;
     font-weight: 600;
-
 }
 
 .name_filter{
@@ -186,6 +188,7 @@ header{
 .info_hebergement{
     width: 100%;
     font-size: 17px;
+    margin-left: 20px;
 }
 #Hebergement{
     display: flex;
@@ -285,7 +288,9 @@ header{
 }
 #titre_populaire{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
     font-size: 1.5em;
 }
 .populaire_card{

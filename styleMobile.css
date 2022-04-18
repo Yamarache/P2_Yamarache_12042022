@@ -1,7 +1,6 @@
 @media screen and (max-device-width: 768px)
 {
     body{
-        margin: 0;
         overflow-x: hidden;
     }
     /* HEADER */
@@ -109,6 +108,10 @@
     }
         
     /* POPULAIRE */
+
+    #Populaire{
+        width: 100%;
+    }
     .image_populaire {
         height: 140px;
     }
@@ -162,6 +165,9 @@
     }
     #Activity_card{
         margin-top: 0;
+    }
+    .card p{
+        font-size: inherit;
     }
     /* FOOTER */
 

@@ -144,10 +144,6 @@
         margin-left: 0px;
         margin-right: 0px;
     }
-    #Hebergement{
-        margin-left: 10px;
-        margin-right: 10px;
-    }
     .info_hebergement:not(h2){
         margin-top: 30px;
     }
